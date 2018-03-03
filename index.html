@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Peeps Trivia Game</title>
+   
+</head>
+<body>
+    <div class="wrapper">
+        <!-- this is the container that holds all the contents of the game -->
+        <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+            <!-- row 1 - this is the heading of the game-->
+                        <h1 class="heading">Peeps Trivia Game</h1>
+                    </div>
+                </div>
+            <!-- row 2 - Time Remaining -->    
+                <div>
+                    <button class="btn btn-primary" id="start" type="button">Start</button>
+                </div>
+                <div>
+                    <div id="timer" class="col-sm-12 col-md-12 col-lg-12 hide">
+                        <p>Time Remaining: <span id="counter"></span></p>
+                    </div>
+                </div>
+            <!-- row 3 - Questions to the game go here -->      
+                <div>
+                    
+                    <div id="gameContent" class= "col-sm-12 col-md-12 col-lg-12 hide">
+                        <p>Questions</p>
+                            <div id="questionsAndAnswers">
+
+                            </div>
+                            <button id="done" type="button" class="btn btn-primary">Done</button>
+                            <!-- <div id="Question 1">
+                                <p data-QAgroup="0">Who invented the wonderful candy known as Peeps?</p>
+                            </div>     -->
+                       
+                            <!-- <div id ="Answer 1">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary">Julia Childs</button>
+                                    <button type="button" class="btn btn-primary">Thom Fosse</button>
+                                    <button type="button" class="btn btn-primary">Unknown</button>
+                                    <button type="button" class="btn btn-primary">Sam Born</button>
+                                </div>
+
+                                 
+                            </div> -->
+                    </div>
+                            <div id="results">
+
+                            </div>
+                           
+                            <!-- <div id="Question 2">
+                                <p> In what city did Peeps first appear?</p>
+                            </div>     -->
+                       
+                            <!-- <div id ="Answer 2">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-primary">Seattle</button>
+                                    <button type="button" class="btn btn-primary">Boston</button>
+                                    <button type="button" class="btn btn-primary">New York City</button>
+                                    <button type="button" class="btn btn-primary">St. Louis</button>
+                                </div>
+                                
+                                
+                                
+                                
+                            </div> -->
+                </div>                           
+                            
+        </div> <!--container -->
+    </div> <!--wrapper -->
+               
+
+            
+        </div>    
+    </div>   
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
